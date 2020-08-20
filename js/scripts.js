@@ -6,31 +6,25 @@
 
 // Do not add any UI logic until you've completed your business logic (and included testing).
 
-const I = 1
-const V = 5
-const X = 10
-const L = 50
-const C = 100
-const D = 500
-const M = 1000
+
 
 const numbertypes = [1, 5, 10, 50, 100, 500, 1000]
 const romannumerals = [I, V, X, L, C, D, M]
 
-function convertroman(userinput); {
-  if (userinput = 1) {
+function convertroman(userinput) {
+  if (userinput === "1") {
     return "I";
-  } else if (userinput = 5) {
+  } else if (userinput === "5") {
     return "V";
-  } else if (userinput = 10) {
+  } else if (userinput === "10") {
     return "X";
-  } else if (userinput = 50) {
+  } else if (userinput === "50") {
     return "L";
-  } else if (userinput = 100) {
+  } else if (userinput === "100") {
     return "C";
-  } else if (userinput = 500) {
+  } else if (userinput === "500") {
     return "D";
-  } else if (userinput = 1000) {
+  } else if (userinput === "1000") {
     return "M";
   }
 }
