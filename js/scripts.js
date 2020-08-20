@@ -70,14 +70,18 @@ function romanNumeral(input) {
 }
 
 function singleNumeral(input) {
-  let singleArr = [];
+  let singleStr = "";
   for (let i = 1; i <= input; i++) {
-    if (i === 1) {
-      singleArr.push(I);
+    if (i < 4) {
+      singleStr += "I";
+    } else if (i === 4) {
+      singleStr ="IV";
     } else if (i === 5) {
-      singleArr.push(V);
-    }
-    console.log(singleArr);
+      singleStr = "V";
+    } else if (i === 9) {
+      singleStr = "IX";
+    } 
+    console.log(singleStr);
   }
 }
 
