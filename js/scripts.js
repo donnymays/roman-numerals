@@ -6,41 +6,119 @@
 
 // Do not add any UI logic until you've completed your business logic (and included testing).
 
+// Describe: "convertRoman" 
+// Test: "It will assign values to our Roman Numerals"
+// Expect: "(I = 1) (V = 5) etc..."
 
-
-const numbertypes = [1, 5, 10, 50, 100, 500, 1000]
-const romannumerals = [I, V, X, L, C, D, M]
-
-function convertroman(userinput) {
-  if (userinput === "1") {
+function convertRoman(userinput) {
+  if (userinput === 1) {
     return "I";
-  } else if (userinput === "5") {
+  } else if (userinput === 5) {
     return "V";
-  } else if (userinput === "10") {
+  } else if (userinput === 10) {
     return "X";
-  } else if (userinput === "50") {
+  } else if (userinput === 50) {
     return "L";
-  } else if (userinput === "100") {
+  } else if (userinput === 100) {
     return "C";
-  } else if (userinput === "500") {
+  } else if (userinput === 500) {
     return "D";
-  } else if (userinput === "1000") {
+  } else if (userinput === 1000) {
     return "M";
   }
 }
 
-// Describe: "Create Symbol Variables" 
-// Test: "It will assign values to our Roman Numerals"
-// Expect: "(I = 1) (V = 5) etc..."
+DCL = parse value of D, parse value of
+
+
+
+
+function addNumerals(number1, number2, number3, number4, number5, number6, number7) {
+  // let numTranslation = { "I": 1, "V": 5, "X": 10 }
+  let romanNums = ["I", "V", "X"];
+  let arabicNums = [1, 5, 10]
+  let I = 1
+  let V = 5
+  let X = 10
+  let L = 50
+  let C = 100
+  let D = 500
+  let M = 1000
+
+  let I = parseInt(I);
+  let V = parseInt(V);
+  let X = parseInt(X);
+  let L = parseInt(L);
+  let C = parseInt(C);
+  let D = parseInt(D);
+  let M = parseInt(D);
+  return number1 + number2 + number3 + number4 + number5 + number6 + number7
+};
+
 
 // Describe: "addSymbols()"
 // Test: "It will add the value of the symbols together"
-// Expect: (addSymbols("2")).toEqual("II")
+// Expect: (addSymbols(II)).toEqual("2")
+
+function romanNumeral(input) {
+  let romanArr = []
+  let inputString = input.toString();
+  for (let i = 0; i <= inputString.length - 1; i++) {
+    romanArr.push(inputString[i]);
+    console.log(romanArr);
+  }
+}
+
+function singleNumeral(input) {
+  let singleArr = [];
+  for (let i = 1; i <= input; i++) {
+    if (i === 1) {
+      singleArr.push(I);
+    } else if (i === 5) {
+      singleArr.push(V);
+    }
+    console.log(singleArr);
+  }
+}
+
+
+
+
+
+
+
+
 
 // Describe: "subSymbols()"
 // Test: It will subtract the values of the symbols if there are more than 3 in a row"
 // Expect: (subSymbols("4")).toEqual("IV")
 
+for (let convertRoman(userinput)) {
+  while i != -1;
+  num += parseInt([rn]);
+  romanNumber = romanNumber.replace, "-");
+
+}
 // Describe: "sepSymbols()"
 // Test: It will seperate ones, tens, hundreds, thousands (99 is XCIX, not IC).
 // Expect: (sepSymbols("199")).toEqual("CXCIX (not ICC))")
+
+
+
+function addNumerals2(number1, number2, number3, number4, number5, number6, number7) {
+  let I = 1
+  let V = 5
+  let X = 10
+  let L = 50
+  let C = 100
+  let D = 500
+  let M = 1000
+  Number(number1);
+  Number(number2);
+  Number(number3);
+  Number(number4);
+  Number(number5);
+  Number(number6);
+  Number(number7);
+  return number1 + number2 + number3 + number4 + number5 + number6 + number7
+};
